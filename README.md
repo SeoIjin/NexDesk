@@ -4,7 +4,7 @@
 
 ## School Project Notice
 
-NexDesk is a school project developed and owned by **[Course, Section, and Group Number]**, **[Subject Code and Name]** (School Year **[YY-YY]**), **[School Name]**.
+NexDesk is a school project developed and owned by **SBIT - 2D GROUP 4**, **IS Project Management IS 106** (School Year **2026-2027**), **Quezon City University**.
 
 The included users, tickets, technicians, assets, inventory, SLA records, and other sample data are mocked for demonstration and coursework. Do not use this project to store real personal, financial, or business information.
 
