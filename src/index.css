@@ -1,0 +1,125 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+  --shadow-panel: 0 1px 2px rgb(15 23 42 / 0.04), 0 10px 30px rgb(15 23 42 / 0.05);
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+    background: #f4f6fb;
+    color: #0f172a;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    min-width: 0;
+  }
+
+  button,
+  a,
+  input,
+  select,
+  textarea {
+    outline: none;
+  }
+
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: #bfdbfe;
+    color: #172554;
+  }
+}
+
+@layer components {
+  .app-main h1 {
+    letter-spacing: -0.035em;
+  }
+
+  .app-main h2,
+  .app-main h3 {
+    letter-spacing: -0.02em;
+  }
+
+  .app-main table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+
+  .app-main table thead th {
+    background: #f8fafc;
+    color: #64748b;
+    letter-spacing: 0.045em;
+  }
+
+  .app-main table tbody tr {
+    transition: background-color 150ms ease;
+  }
+
+  .app-main input,
+  .app-main select,
+  .app-main textarea {
+    transition: border-color 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+  }
+
+  .app-main input::placeholder,
+  .app-main textarea::placeholder {
+    color: #94a3b8;
+  }
+
+  .app-main button {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-main {
+    padding: 12px !important;
+  }
+
+  .app-main > * {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .app-main h1 {
+    font-size: 1.35rem;
+    line-height: 1.25;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
