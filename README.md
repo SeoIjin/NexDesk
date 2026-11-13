@@ -32,19 +32,16 @@ It is built as a React and TypeScript frontend with a Node.js (NestJS) API that 
 - **Major Incident Mode:** a banner and bulk-notification tool for outages (for example, a VPN outage affecting 120 users), with related tickets grouped under one parent incident.
 - **Gamification:** badges, streaks, and a leaderboard for technicians, weighted by quality (CSAT, reopen rate, QA score) and not just speed.
 - **Real-Time Collaboration:** several technicians can work on one ticket together, with live presence indicators.
-=======
+
 NexDesk is a role-based IT help desk dashboard mockup for Employees, Technicians, Team Leads, and IT Managers. The interface demonstrates ticket reporting, assignment workflows, SLA monitoring, risk management, quality reviews, and service reporting.
->>>>>>> f0b7206 (Initial NexDesk mockup)
 
 ## Technology
 
 - React, TypeScript, and Vite
 - Tailwind CSS
-<<<<<<< HEAD
 - Node.js with NestJS (REST API and WebSockets)
 - MySQL 8 with Prisma or TypeORM
 - Redis for caching, SLA timers, and job queues
-=======
 - Static sample data in `components/mock-data.ts`
 
 ## Getting Started
