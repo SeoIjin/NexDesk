@@ -1,6 +1,5 @@
 # NexDesk
 
-<<<<<<< HEAD
 **A Web-Based IT Help Desk and Ticketing System for Technician Assignment and Resolution Tracking**
 
 ## School Project Notice
