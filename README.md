@@ -73,3 +73,10 @@ Open the app at `http://localhost:8443`.
 
 The app uses frontend sample data only. It has no database, PHP API, authentication service, or persistent ticket storage. Ticket submission and dashboard actions are simulated for demonstration.
 >>>>>>> f0b7206 (Initial NexDesk mockup)
+
+<img width="1258" height="892" alt="image" src="https://github.com/user-attachments/assets/4f4ecdef-3540-457d-9e02-1e1894d811c1" />
+<img width="1258" height="885" alt="image" src="https://github.com/user-attachments/assets/fe03ff12-6142-459b-b2df-f122e1880b74" />
+<img width="1258" height="886" alt="image" src="https://github.com/user-attachments/assets/d3538779-7615-4511-bf0a-03c4bc842e52" />
+<img width="1258" height="888" alt="image" src="https://github.com/user-attachments/assets/bdcf0f5c-20a0-4e94-bce3-77c903aa3e7f" />
+<img width="1258" height="888" alt="image" src="https://github.com/user-attachments/assets/f4789847-e9bd-409a-a51d-3c2be8ee1323" />
+
